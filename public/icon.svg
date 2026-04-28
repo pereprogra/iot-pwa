@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo oscuro premium con bordes redondeados (estilo app) -->
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  
+  <!-- Anillos exteriores (representan conexión/satélite) -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#3b82f6" stroke-width="32" opacity="0.8"/>
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#3b82f6" stroke-width="12" opacity="0.4" stroke-dasharray="20 20"/>
+  
+  <!-- Centro verde (representa el sensor local) -->
+  <circle cx="256" cy="256" r="60" fill="#10b981"/>
+  
+  <!-- Antenas de conectividad / IoT -->
+  <path d="M256 64v52m0 280v52M64 256h52m280 0h52" stroke="#f59e0b" stroke-width="32" stroke-linecap="round"/>
+</svg>
